@@ -1,0 +1,1096 @@
+/* line 1, ../sites/crypto_invest/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 2, ../sites/crypto_invest/src/sass/_general.sass */
+header {
+  position: relative;
+}
+
+/* line 5, ../sites/crypto_invest/src/sass/_general.sass */
+nav {
+  height: 50px;
+  background-color: #3b3b3b00;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+
+/* line 11, ../sites/crypto_invest/src/sass/_general.sass */
+nav .menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 17, ../sites/crypto_invest/src/sass/_general.sass */
+nav .menu .menu_link {
+  color: #c9c9c9;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.3s all;
+  outline: none;
+}
+
+/* line 23, ../sites/crypto_invest/src/sass/_general.sass */
+nav .menu .menu_link:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 26, ../sites/crypto_invest/src/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 29, ../sites/crypto_invest/src/sass/_general.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/bg.png") center center/cover no-repeat;
+  padding: 150px 0 150px 0;
+}
+
+/* line 33, ../sites/crypto_invest/src/sass/_general.sass */
+.promo .money {
+  color: #0ec483;
+}
+
+/* line 37, ../sites/crypto_invest/src/sass/_general.sass */
+h1 {
+  display: block;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  margin-top: 80px;
+  text-align: center;
+}
+
+/* line 50, ../sites/crypto_invest/src/sass/_general.sass */
+.promo_subheader {
+  color: #eeeeee;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin: 0;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* line 60, ../sites/crypto_invest/src/sass/_general.sass */
+.promo_subheader_small {
+  color: #eeeeee;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 26px;
+  line-height: 0px;
+  margin: 0;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* line 71, ../sites/crypto_invest/src/sass/_general.sass */
+.promo .promo_btn {
+  margin: 0 auto;
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(70, 197, 189, 0.9);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: 0.3s all;
+  outline: none;
+}
+
+/* line 87, ../sites/crypto_invest/src/sass/_general.sass */
+.promo .promo_btn:hover {
+  background-color: rgba(2, 177, 177, 0.9);
+}
+
+/* line 89, ../sites/crypto_invest/src/sass/_general.sass */
+.promo .promo_btn:active {
+  background-color: #0ec483;
+}
+
+/* line 92, ../sites/crypto_invest/src/sass/_general.sass */
+.second {
+  background-color: #d6d6d6;
+  height: inherit;
+}
+
+/* line 95, ../sites/crypto_invest/src/sass/_general.sass */
+.second .title {
+  display: block;
+  color: #3a3030;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0px;
+  padding: 60px 0 30px 0;
+}
+
+/* line 105, ../sites/crypto_invest/src/sass/_general.sass */
+.second .title_name {
+  display: block;
+  color: #3a3030;
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0px;
+  margin-top: 30px;
+}
+
+/* line 115, ../sites/crypto_invest/src/sass/_general.sass */
+.second .number {
+  display: block;
+  color: #0ec583;
+  font-family: Rationale;
+  font-size: 180px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  line-height: 0px;
+  margin-top: 150px;
+}
+
+/* line 125, ../sites/crypto_invest/src/sass/_general.sass */
+.second .reasons_descr {
+  display: block;
+  color: #3a3030;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+/* line 135, ../sites/crypto_invest/src/sass/_general.sass */
+.philosophy {
+  min-height: 719px;
+  padding: 50px 15px 43px 15px;
+  background: url("../img/bg2.jpg") center center/cover no-repeat;
+}
+
+/* line 139, ../sites/crypto_invest/src/sass/_general.sass */
+.philosophy .name {
+  color: #000000;
+  line-height: 60px;
+  margin: 0;
+  margin-top: px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* line 149, ../sites/crypto_invest/src/sass/_general.sass */
+.philosophy .money {
+  color: #009f59;
+}
+
+/* line 151, ../sites/crypto_invest/src/sass/_general.sass */
+.philosophy .goals {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* line 158, ../sites/crypto_invest/src/sass/_general.sass */
+.philosophy .items_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 283px;
+  height: 283px;
+  margin: 0 auto;
+}
+
+/* line 169, ../sites/crypto_invest/src/sass/_general.sass */
+.philosophy .reasons_text_1 {
+  display: flex;
+  color: #000000;
+  width: 283px;
+  height: 283px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/1_triangle.png") center center/cover no-repeat;
+  padding: 45px;
+}
+
+/* line 182, ../sites/crypto_invest/src/sass/_general.sass */
+.philosophy .reasons_text_2 {
+  display: flex;
+  color: #000000;
+  width: 283px;
+  height: 283px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/2_triangle.png") center center/cover no-repeat;
+  padding: 45px;
+}
+
+/* line 195, ../sites/crypto_invest/src/sass/_general.sass */
+.philosophy .reasons_text_3 {
+  display: flex;
+  color: #000000;
+  width: 283px;
+  height: 283px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/3_triangle.png") center center/cover no-repeat;
+  padding: 45px;
+}
+
+/* line 208, ../sites/crypto_invest/src/sass/_general.sass */
+.philosophy .reasons_round {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 213, ../sites/crypto_invest/src/sass/_general.sass */
+.philosophy .reasons_text {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 220, ../sites/crypto_invest/src/sass/_general.sass */
+.howstart {
+  padding: 40px 0 70px 0;
+  background: url(../img/bg3.jpg) center center/cover no-repeat;
+  height: inherit;
+}
+
+/* line 224, ../sites/crypto_invest/src/sass/_general.sass */
+.howstart .name {
+  color: #dddddd;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 7px;
+}
+
+/* line 242, ../sites/crypto_invest/src/sass/_general.sass */
+.howstart .list {
+  list-style-type: none;
+  color: #dddddd;
+  margin-top: 30px;
+  z-index: 2;
+}
+
+/* line 247, ../sites/crypto_invest/src/sass/_general.sass */
+.howstart .list .item1 {
+  margin-top: 9px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  border-radius: 7px;
+}
+
+/* line 255, ../sites/crypto_invest/src/sass/_general.sass */
+.howstart .laptop {
+  margin-top: -330px;
+  z-index: 1;
+}
+
+/* line 259, ../sites/crypto_invest/src/sass/_general.sass */
+.invest {
+  background: url("../img/bg3.png") center center/cover no-repeat;
+  padding: 45px 0 100px 0;
+}
+
+/* line 262, ../sites/crypto_invest/src/sass/_general.sass */
+.invest .title {
+  color: #3a3030;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 40px;
+}
+
+/* line 269, ../sites/crypto_invest/src/sass/_general.sass */
+.invest .title2 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 20px;
+}
+
+/* line 276, ../sites/crypto_invest/src/sass/_general.sass */
+.invest .deposit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 47px;
+  transition: 0.5s all;
+}
+
+/* line 282, ../sites/crypto_invest/src/sass/_general.sass */
+.invest .deposit:hover {
+  transform: scale(1.1);
+}
+
+/* line 285, ../sites/crypto_invest/src/sass/_general.sass */
+.differences {
+  background: url("../img/bg4.png") center center/cover no-repeat;
+  padding: 40px 0 50px 0;
+}
+
+/* line 288, ../sites/crypto_invest/src/sass/_general.sass */
+.differences .row {
+  margin-top: 20px;
+}
+
+/* line 290, ../sites/crypto_invest/src/sass/_general.sass */
+.differences .title {
+  color: #3a3030;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* line 295, ../sites/crypto_invest/src/sass/_general.sass */
+.differences .item {
+  width: 370px;
+  height: 90px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+/* line 300, ../sites/crypto_invest/src/sass/_general.sass */
+.differences .item_text {
+  color: #312525;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* line 305, ../sites/crypto_invest/src/sass/_general.sass */
+.differences .item .item_text {
+  margin-top: 10px;
+  background: #f3f3f3b7;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  border-radius: 7px;
+}
+
+/* line 313, ../sites/crypto_invest/src/sass/_general.sass */
+.differences .title2 {
+  color: #312525;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+/* line 320, ../sites/crypto_invest/src/sass/_general.sass */
+.differences .item2 {
+  width: 370px;
+  height: 90px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+/* line 325, ../sites/crypto_invest/src/sass/_general.sass */
+.differences .item2 .item_text2 {
+  margin-top: 10px;
+  background: #f3f3f3b7;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  border-radius: 7px;
+}
+
+/* line 334, ../sites/crypto_invest/src/sass/_general.sass */
+.close {
+  background: url("../img/bg5.png") center center/cover no-repeat;
+  padding: 40px 0 50px 0;
+}
+
+/* line 337, ../sites/crypto_invest/src/sass/_general.sass */
+.close .title {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #dddddd;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 346, ../sites/crypto_invest/src/sass/_general.sass */
+.close .item {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 20px 20px 20px;
+}
+
+/* line 351, ../sites/crypto_invest/src/sass/_general.sass */
+.close .text {
+  max-width: 760;
+  color: #dddddd;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32.57px;
+  text-align: left;
+}
+
+/* line 358, ../sites/crypto_invest/src/sass/_general.sass */
+.close .text .money {
+  color: #009f59;
+}
+
+/* line 360, ../sites/crypto_invest/src/sass/_general.sass */
+.close .money {
+  color: #0ec483;
+}
+
+/* line 363, ../sites/crypto_invest/src/sass/_general.sass */
+.footer {
+  background: url("../img/footer.png") center center/cover no-repeat;
+  padding: 40px 0 50px 0;
+}
+
+/* line 366, ../sites/crypto_invest/src/sass/_general.sass */
+.footer .gm_text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 30px;
+}
+
+/* line 373, ../sites/crypto_invest/src/sass/_general.sass */
+.footer .gm_phone {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: right;
+  margin-top: -25px;
+  margin-right: 70px;
+}
+
+/* line 381, ../sites/crypto_invest/src/sass/_general.sass */
+.footer .tg_logo {
+  float: right;
+  margin-top: -27px;
+  margin-right: 30px;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../sites/crypto_invest/src/sass/_media.sass */
+  .close .title {
+    font-size: 36px;
+  }
+  /* line 5, ../sites/crypto_invest/src/sass/_media.sass */
+  .close .text {
+    font-size: 20px;
+  }
+  /* line 8, ../sites/crypto_invest/src/sass/_media.sass */
+  .second .title {
+    font-size: 36px;
+  }
+  /* line 10, ../sites/crypto_invest/src/sass/_media.sass */
+  .second .title_name {
+    font-size: 48px;
+  }
+  /* line 12, ../sites/crypto_invest/src/sass/_media.sass */
+  .second .number {
+    font-size: 150px;
+  }
+  /* line 14, ../sites/crypto_invest/src/sass/_media.sass */
+  .second .reasons_text {
+    font-size: 16px;
+  }
+  /* line 18, ../sites/crypto_invest/src/sass/_media.sass */
+  .invest .deposit:hover {
+    transform: scale(1.05);
+  }
+  /* line 21, ../sites/crypto_invest/src/sass/_media.sass */
+  .footer .gm_phone {
+    margin-right: 150px;
+  }
+  /* line 23, ../sites/crypto_invest/src/sass/_media.sass */
+  .footer .tg_logo {
+    margin-right: 110px;
+  }
+  /* line 26, ../sites/crypto_invest/src/sass/_media.sass */
+  .menu .menu_link {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 31, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .goals {
+    font-size: 22px;
+  }
+  /* line 33, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_text_1 {
+    width: 230px;
+    height: 230px;
+    font-size: 13px;
+  }
+  /* line 37, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_text_2 {
+    width: 230px;
+    height: 230px;
+    font-size: 12px;
+  }
+  /* line 41, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_text_3 {
+    width: 230px;
+    height: 230px;
+    font-size: 12px;
+  }
+  /* line 46, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .laptop {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-top: -360px;
+    margin-bottom: 130px;
+    z-index: 1;
+  }
+  /* line 53, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .name {
+    color: #dddddd;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: -170px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 7px;
+    padding-left: 12px;
+  }
+  /* line 65, ../sites/crypto_invest/src/sass/_media.sass */
+  .invest .deposit {
+    transform: scale(0.75);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    transition: 0.5s all;
+  }
+  /* line 70, ../sites/crypto_invest/src/sass/_media.sass */
+  .invest .deposit:hover {
+    transform: scale(0.85);
+  }
+  /* line 73, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .title {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  /* line 76, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item {
+    width: 295px;
+    height: 90px;
+    margin-bottom: 60px;
+    padding: 10px;
+  }
+  /* line 81, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_text {
+    height: 138px;
+  }
+  /* line 83, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item2 {
+    width: 295px;
+    height: 90px;
+    margin-bottom: 60px;
+    padding: 10px;
+    margin-bottom: 110px;
+  }
+  /* line 89, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_text2 {
+    height: 188px;
+  }
+  /* line 92, ../sites/crypto_invest/src/sass/_media.sass */
+  .close .title {
+    font-size: 30px;
+  }
+  /* line 94, ../sites/crypto_invest/src/sass/_media.sass */
+  .close .text {
+    font-size: 18px;
+  }
+  /* line 97, ../sites/crypto_invest/src/sass/_media.sass */
+  .menu .menu_link {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 101, ../sites/crypto_invest/src/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 70%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: #000503f1;
+    transition: 0.5s all;
+  }
+  /* line 113, ../sites/crypto_invest/src/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 115, ../sites/crypto_invest/src/sass/_media.sass */
+  .menu .menu_item {
+    padding-right: 0;
+    border: 0;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 121, ../sites/crypto_invest/src/sass/_media.sass */
+  .menu .menu_link {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  /* line 124, ../sites/crypto_invest/src/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 26px;
+  }
+  /* line 132, ../sites/crypto_invest/src/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 4px;
+    border-radius: 3px;
+    width: 100%;
+    background-color: #0ec583;
+    margin-bottom: 6px;
+    transition: 0.5s all;
+  }
+  /* line 141, ../sites/crypto_invest/src/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 143, ../sites/crypto_invest/src/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(5px) rotate(-45deg);
+  }
+  /* line 145, ../sites/crypto_invest/src/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 147, ../sites/crypto_invest/src/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(5px) rotate(45deg);
+  }
+  /* line 150, ../sites/crypto_invest/src/sass/_media.sass */
+  .promo .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 152, ../sites/crypto_invest/src/sass/_media.sass */
+  .promo .promo_subheader_small {
+    font-size: 20px;
+  }
+  /* line 155, ../sites/crypto_invest/src/sass/_media.sass */
+  .second .title_name {
+    margin-bottom: 40px;
+  }
+  /* line 157, ../sites/crypto_invest/src/sass/_media.sass */
+  .second .reasons_block {
+    margin-top: -70px;
+  }
+  /* line 159, ../sites/crypto_invest/src/sass/_media.sass */
+  .second .number {
+    text-align: left;
+  }
+  /* line 161, ../sites/crypto_invest/src/sass/_media.sass */
+  .second .reasons_text {
+    margin-top: -144px;
+    padding-left: 100px;
+  }
+  /* line 164, ../sites/crypto_invest/src/sass/_media.sass */
+  .second .reasons_text2 {
+    padding-left: 130px;
+    margin-top: -158px;
+  }
+  /* line 167, ../sites/crypto_invest/src/sass/_media.sass */
+  .second .reasons_text3 {
+    padding-left: 130px;
+  }
+  /* line 169, ../sites/crypto_invest/src/sass/_media.sass */
+  .second hr {
+    display: none;
+  }
+  /* line 172, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_block1 {
+    margin-top: 10px;
+    margin-right: 250px;
+  }
+  /* line 175, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_block2 {
+    margin-top: -230px;
+    margin-left: 250px;
+  }
+  /* line 178, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_block3 {
+    margin-top: -100px;
+  }
+  /* line 180, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_text_1 {
+    font-weight: 500;
+  }
+  /* line 182, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_text_2 {
+    font-weight: 500;
+  }
+  /* line 184, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_text_3 {
+    font-weight: 500;
+  }
+  /* line 187, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .icons4 .reasons_text {
+    font-weight: 500;
+  }
+  /* line 189, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart {
+    padding: 35px 0 35px 0;
+  }
+  /* line 191, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .name {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 0;
+  }
+  /* line 195, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .laptop {
+    display: none;
+  }
+  /* line 197, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .item1 {
+    width: 481px;
+  }
+  /* line 199, ../sites/crypto_invest/src/sass/_media.sass */
+  .invest {
+    padding: 45px 0 45px 0;
+  }
+  /* line 201, ../sites/crypto_invest/src/sass/_media.sass */
+  .invest .deposit {
+    transform: scale(1.15);
+    margin-top: 60px;
+  }
+  /* line 205, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .title {
+    font-size: 28px;
+    text-align: center;
+  }
+  /* line 208, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item {
+    font-size: 10px;
+  }
+  /* line 210, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  /* line 214, ../sites/crypto_invest/src/sass/_media.sass */
+  .gm_text {
+    margin-top: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  /* line 218, ../sites/crypto_invest/src/sass/_media.sass */
+  .gm_text {
+    margin-top: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  /* line 223, ../sites/crypto_invest/src/sass/_media.sass */
+  .promo .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 225, ../sites/crypto_invest/src/sass/_media.sass */
+  .promo .promo_subheader_small {
+    font-size: 16px;
+  }
+  /* line 228, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_block1 {
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+  /* line 231, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_block2 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  /* line 234, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_block3 {
+    margin-top: 0;
+  }
+  /* line 236, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_text_1 {
+    font-weight: 500;
+  }
+  /* line 238, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_text_2 {
+    font-weight: 500;
+  }
+  /* line 240, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .reasons_text_3 {
+    font-weight: 500;
+  }
+  /* line 243, ../sites/crypto_invest/src/sass/_media.sass */
+  .philosophy .icons4 .reasons_text {
+    font-weight: 500;
+  }
+  /* line 245, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart {
+    padding: 35px 0 35px 0;
+  }
+  /* line 247, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .name {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 0;
+  }
+  /* line 251, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .laptop {
+    display: none;
+  }
+  /* line 253, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .item1 {
+    width: 350px;
+  }
+  /* line 256, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .title {
+    font-size: 20px;
+    text-align: center;
+  }
+  /* line 259, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item {
+    font-size: 10px;
+    margin-left: 65px;
+  }
+  /* line 262, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_text {
+    width: 250px;
+  }
+  /* line 264, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_two {
+    margin-top: 0;
+    margin-left: 65px;
+  }
+  /* line 267, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_four {
+    margin-top: 0;
+    margin-left: 65px;
+  }
+  /* line 270, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .title2 {
+    font-size: 18px;
+    text-align: center;
+    margin-right: 20px;
+  }
+  /* line 274, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_text2 {
+    width: 250px;
+    height: 170px;
+    margin-left: 65px;
+  }
+  /* line 278, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_text23 {
+    height: 235px;
+    margin-bottom: 20px;
+  }
+  /* line 281, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item22 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  /* line 284, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item23 {
+    margin-top: -0;
+    margin-left: 0;
+    margin-bottom: 150px;
+  }
+  /* line 288, ../sites/crypto_invest/src/sass/_media.sass */
+  .invest {
+    padding: 45px 0 45px 0;
+  }
+  /* line 290, ../sites/crypto_invest/src/sass/_media.sass */
+  .invest .deposit {
+    transform: scale(1);
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  /* line 295, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart {
+    padding: 35px 0 35px 0;
+  }
+  /* line 297, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .name {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 0;
+  }
+  /* line 301, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .laptop {
+    display: none;
+  }
+  /* line 303, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .item1 {
+    width: 315px;
+  }
+  /* line 306, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .title {
+    font-size: 20px;
+    text-align: center;
+  }
+  /* line 309, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item {
+    font-size: 10px;
+    margin-left: 0;
+  }
+  /* line 312, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_text {
+    width: 315px;
+  }
+  /* line 314, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_two {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  /* line 317, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_four {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  /* line 320, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .title2 {
+    font-size: 18px;
+    text-align: center;
+    margin-right: 20px;
+  }
+  /* line 324, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_text2 {
+    width: 315px;
+    height: 170px;
+    margin-left: 0;
+  }
+  /* line 328, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item_text23 {
+    height: 235px;
+    margin-bottom: 20px;
+  }
+  /* line 331, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item22 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  /* line 334, ../sites/crypto_invest/src/sass/_media.sass */
+  .differences .item23 {
+    margin-top: -0;
+    margin-left: 0;
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 363px) {
+  /* line 341, ../sites/crypto_invest/src/sass/_media.sass */
+  .promo .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 343, ../sites/crypto_invest/src/sass/_media.sass */
+  .promo .promo_subheader_small {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  /* line 347, ../sites/crypto_invest/src/sass/_media.sass */
+  .promo .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 349, ../sites/crypto_invest/src/sass/_media.sass */
+  .promo .promo_subheader_small {
+    font-size: 12px;
+  }
+  /* line 351, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart {
+    padding: 35px 0 35px 0;
+  }
+  /* line 353, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .name {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 0;
+  }
+  /* line 357, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .laptop {
+    display: none;
+  }
+  /* line 359, ../sites/crypto_invest/src/sass/_media.sass */
+  .howstart .item1 {
+    width: 260px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
